@@ -1,0 +1,75 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Easy Dynamics Docs
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: easydynamics
+github_username:  easydynamics
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: https://www.easydynamics.com/images/edc-logo.svg
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: false
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: easyd
+
+# Footer last edited timestamp
+# show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_timestamp: true 
+# uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+last_edit_time_format: "%b %e %Y at %I:%M %p" 
+
+# Footer "Edit this page on GitHub" link text
+# show or hide edit this page link
+gh_edit_link: true 
+gh_edit_link_text: "Edit this page on GitHub."
+# the github URL for your repo
+gh_edit_repository: "https://github.com/easydynamics/easydynamics.github.io" 
+# the branch that your docs is served from
+gh_edit_branch: "main" 
+# "tree" or "edit" if you want the user to jump into the editor immediately
+gh_edit_view_mode: "tree" 
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+#
+# Supports true (default) or false
+heading_anchors: true
+
+# Build settings
+markdown: kramdown
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
