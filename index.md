@@ -35,6 +35,7 @@ If not, fill out the form at the link below. You will be asked for the following
 | Full Name                     | The name of the person requesting access              |
 | Email Address                 | The email address of the person requesting access     |
 | GitHub Username (optional)    | The GitHub username if preferred over email address   |
+| Team membership (optional)    | A list of GitHub teams to request membership to       |
 
 Click the button below to submit a request to our IT department.
 
