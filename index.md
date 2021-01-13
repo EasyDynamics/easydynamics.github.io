@@ -4,11 +4,9 @@ title:  Requesting Access
 nav_order: 1
 ---
 # Requesting Access
----
-We are currently in the process of transitioning from using Bitbucket Cloud to GitHub. 
-There are a number of public and private repositories and you may already have acess to some of them.
-Our public repositories can be found on the [Easy Dynamics GitHub Organization](https://github.com/easydynamics) 
-page. If you don't see the repositories that you're expecting, continue reading.
+--- 
+Our public repositories can be found on the [Easy Dynamics GitHub Organization](https://github.com/EasyDynamics) 
+page. If you don't see the repositories that you're expecting, continue reading to request access.
 
 
 ## Table of contents
@@ -25,7 +23,7 @@ Check the top right area of GitHub to see if you're signed in, as shown in the i
 
 If not, click the sign in button below and check the list of repositories again.
 
-[Sign in to GitHub](https://github.com/login?return_to=%2Feasydynamics){: .btn .btn-blue }
+[Sign in to GitHub](https://github.com/login?return_to=%2FEasyDynamics){: .btn .btn-blue }
 
 ## Joining the Easy Dynamics Organization
 
@@ -66,7 +64,7 @@ request additional access to them as described below.
 
 ## Requesting access to private repositories as a member
 
-If you are signed in as a member of the Easy Dynamics organization, and still don't see the repository, you will need to request access using the form linked below. The form will ask for the following information:
+If you are signed in as a member of the Easy Dynamics organization and still can't access a known repository, you will need to request access using the form linked below. The form will ask for the following information:
 
 | GitHub Username  | The username of the GitHub user that needs access to the repository   |
 | Repository Link  | The link/URL to the repository                                        |
