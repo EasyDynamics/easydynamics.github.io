@@ -1,7 +1,7 @@
 # Guide to Easy Dynamics GitHub repositories
 
 The guide to Easy Dynamics GitHub repositories is a [GitHub Pages](https://pages.github.com/) project that helps visitors and contributors 
-navigate the software projects at Easy Dynamics. The purpose of this readme is to orient contributors of **this repository**. If you are new to software development Easy Dynamics, please visit the published version of this guide at [easydynamics.github.io](https://easydynamics.github.io/) 
+navigate software projects at Easy Dynamics. The purpose of this readme is to orient contributors of **this repository**. If you're new to software development Easy Dynamics, please visit the published version of this guide at [easydynamics.github.io](https://easydynamics.github.io/) 
 to learn more about the procedures and how to get started with contributing.
 
 ## Pre-requisites
@@ -14,7 +14,7 @@ to learn more about the procedures and how to get started with contributing.
 This project is a Jekyll site that uses a [remote theme](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-using-jekyll) from [Just the Docs](https://pmarsceill.github.io/just-the-docs/), and is hosted on [GitHub Pages](https://pages.github.com/). The pages are primarily developed in Markdown and proceessed via [kramdown](https://kramdown.gettalong.org/). Customization to the themes and layouts are done with [SCSS](https://sass-lang.com/documentation/syntax#scss) and HTML. Most of the high level configuration can be found in [`_config.yml`](_config.yml) and is a mix of configuration from Jekyll and Just the Docs. To learn more about how to create and organize content refer to [Jekyll Docs](https://jekyllrb.com/docs/pages/). To customize the layout and theme, refer to the appropriate section under [Just the Docs - Customization](https://pmarsceill.github.io/just-the-docs/docs/customization/).
 
 ## Testing Locally
-Test the site locally by the following command:
+Test the site locally by running the following command:
 ```
 $ bundle exec jekyll serve --watch
 ```
