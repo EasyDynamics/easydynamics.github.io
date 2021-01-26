@@ -1,7 +1,7 @@
 # Guide to Easy Dynamics GitHub repositories
 
 The guide to Easy Dynamics GitHub repositories is a [GitHub Pages](https://pages.github.com/) project that helps visitors and contributors 
-navigate software projects at Easy Dynamics. The purpose of this readme is to orient contributors of **this repository**. If you're new to software development Easy Dynamics, please visit the published version of this guide at [easydynamics.github.io](https://easydynamics.github.io/) 
+navigate software projects at Easy Dynamics. The purpose of this readme is to orient contributors of **this repository**. If you're new to software development at Easy Dynamics, please visit the published version of this guide at [easydynamics.github.io](https://easydynamics.github.io/) 
 to learn more about the procedures and how to get started with contributing.
 
 ## Pre-requisites
