@@ -61,6 +61,10 @@ a GitHub account or create a new one. Please do so accordingly. If you need addi
 a GitHub account, please refer to
 [Signing up for a new GitHub account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account).
 
+All GitHub accounts in the Easy Dynamics organization must have two-factor authentication
+enabled. GitHub provides more information on how to
+[secure your account with two-factor authentication](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
+
 Once you have joined the organization (either temporarily or permanently) you should be able to access private repositories, or
 request additional access to them as described below.
 
