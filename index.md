@@ -43,22 +43,23 @@ Click the button below to submit a request to our IT department.
 
 **NOTE:** If you do not have a GitHub account linked to the email address provided. 
 You will have to create a GitHub account and follow GitHub's process as described 
-on [Signing up for a new GitHub account ](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account).
+on [Signing up for a new GitHub account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account).
 
 Generally, personal accounts are acceptable as long as they are linked to an organizational email address.
 
-Once we have recieved the request, we will send an invitation to the email address listed 
-in the request to join our GitHub organization as  an outside collaborator. The email should look
+Once we have received the request, we will send an invitation to the email address listed 
+in the request to join our GitHub organization as an outside collaborator. The email should look
 something like the image below.
 
-![GitHub Inivitation](/assets/images/github-invitation.png)
+![GitHub Invitation](/assets/images/github-invitation.png)
 
-**NOTE:** The inivitation will come from the email address **noreply@github.com**, so please make sure
+**NOTE:** The invitation will come from the email address **noreply@github.com**, so please make sure
 to either mark the domain as safe or check your spam folder in case it accidentally got moved there.
 
 Once you click the **Join @EasyDynamics** link in the email, you will be asked to either sign in with 
 a GitHub account or create a new one. Please do so accordingly. If you need additional help with creating
-a GitHub account, please refer to [Signing up for a new GitHub account ](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account).
+a GitHub account, please refer to
+[Signing up for a new GitHub account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account).
 
 Once you have joined the organization (either temporarily or permanently) you should be able to access private repositories, or
 request additional access to them as described below.
@@ -71,14 +72,14 @@ If you are signed in as a member of the Easy Dynamics organization and still can
 | Repository Link  | The link/URL to the repository                                        |
 | Permission Level | The desired permission level                                          |
 
-You may only specifiy one of the following permission levels:
+You may only specify one of the following permission levels:
 - Read
 - Triage
 - Write
 - Maintain
 - Admin
 
-For more information about each of the permisison levels see [Permission levels for repositories owned by an organization](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization).
+For more information about each of the permission levels see [Permission levels for repositories owned by an organization](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization).
 
 Click the button below to submit a request to our IT department.
 
