@@ -30,26 +30,16 @@ If not, click the sign in button below and check the list of repositories again.
 If you've signed in and you still don't see the repository, it may be a private repository 
 within the organization. If you are a member of the Easy Dynamics organization, skip to
 [Requesting access to private repositories as a member](#requesting-access-to-private-repositories-as-a-member).
-If not, fill out the form at the link below. You will be asked for the following information:
+If not, click the button below to start the access request process through the GitHub Enterprise Licensing Access Package.
 
-| Full Name                     | The name of the person requesting access              |
-| Email Address                 | The email address of the person requesting access     |
-| GitHub Username (optional)    | The GitHub username if preferred over email address   |
-| Team membership (optional)    | A list of GitHub teams to request membership to       |
+[GitHub Enterprise Licensing Access Package Request](https://myaccess.microsoft.com/@easydynamics.com#/access-packages/3359b71d-6412-4c8d-8488-c2bdcf260e75){: .btn .btn-blue }
 
-Click the button below to submit a request to our IT department.
-
-[Request to join Easy Dynamics](https://forms.office.com/Pages/ResponsePage.aspx?id=8Wo4mFHcgkyTO7heYqkRyjhRBif4ALJMuscRyCOYweNUMzVRSDBIVktTNTNOMUlGMTVSSENIWE9SMCQlQCN0PWcu){: .btn .btn-blue }
-
-**NOTE:** If you do not have a GitHub account linked to the email address provided. 
-You will have to create a GitHub account and follow GitHub's process as described 
-on [Signing up for a new GitHub account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account).
+**NOTE:** If you do not already have a GitHub account, you will need to create a GitHub account and follow GitHub’s process as described in 
+[Signing up for a new GitHub account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account).
 
 Generally, personal accounts are acceptable as long as they are linked to an organizational email address.
 
-Once we have received the request, we will send an invitation to the email address listed 
-in the request to join our GitHub organization as an outside collaborator. The email should look
-something like the image below.
+Once we have received the Access Package request, we will send an invitation to the Easy Dynamics email address associated with the request. The email should look something like the image below.
 
 ![GitHub Invitation](/assets/images/github-invitation.png)
 
