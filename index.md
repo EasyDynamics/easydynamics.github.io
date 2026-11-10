@@ -1,13 +1,13 @@
 ---
 layout: default
-title:  Requesting Access
+title:  GitHub Access
 nav_order: 1
 ---
-# Requesting Access
+# GitHub Access
 --- 
-Our public repositories can be found on the [Easy Dynamics GitHub Organization](https://github.com/EasyDynamics) 
-page. If you don't see the repositories that you're expecting, continue reading to request access.
+Our public repositories can be found on the [Easy Dynamics GitHub Organization](https://github.com/EasyDynamics) page.
 
+If you need access to a private repository or one of the Easy Dynamics GitHub organizations, follow the process below.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -16,51 +16,85 @@ page. If you don't see the repositories that you're expecting, continue reading 
 {:toc}
 
 ## GitHub Sign In
-Make sure you're signed in before contacting IT to request access for specific repositories.
-Check the top right area of GitHub to see if you're signed in, as shown in the image below.
+Make sure you're signed in to GitHub before requesting access.
+
+Check the top-right area of GitHub to confirm you're signed in.
 
 ![Signed In Profile](/assets/images/signed-in-profile.png)
 
-If not, click the sign in button below and check the list of repositories again.
+If not, use the button below.
 
 [Sign in to GitHub](https://github.com/login?return_to=%2FEasyDynamics){: .btn .btn-blue }
 
-## Joining the Easy Dynamics Organization
+**NOTE:** If you do not already have a GitHub account, you will need to create one by following GitHub's instructions:
 
-If you've signed in and you still don't see the repository, it may be a private repository 
-within the organization. If you are a member of the Easy Dynamics organization, skip to
-[Requesting access to private repositories as a member](#requesting-access-to-private-repositories-as-a-member).
-If not, click the button below to start the access request process through the GitHub Enterprise Licensing Access Package.
+[Signing up for a new GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
 
-[GitHub Enterprise Licensing Access Package Request](https://myaccess.microsoft.com/@easydynamics.com#/access-packages/3359b71d-6412-4c8d-8488-c2bdcf260e75){: .btn .btn-blue }
+You may use your existing GitHub account. Your GitHub account will be linked to your Easy Dynamics organizational identity when you complete SAML SSO.
 
-**NOTE:** If you do not already have a GitHub account, you will need to create a GitHub account and follow GitHub’s process as described in 
-[Signing up for a new GitHub account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account).
+## Requesting GitHub Organization Access
 
-Generally, personal accounts are acceptable as long as they are linked to an organizational email address.
+Easy Dynamics manages GitHub organization membership through Microsoft Entra ID using **My Access, Access Packages, SAML SSO, and SCIM provisioning**.
 
-Once we have received the Access Package request, we will send an invitation to the Easy Dynamics email address associated with the request. The email should look something like the image below.
+Request access to the GitHub organization you need:
+
+[Easy Dynamics Access Package](https://myaccess.microsoft.com/@easydynamics.onmicrosoft.com#/access-packages/99167a4e-674b-4dba-9eab-5e36954360c6){: .btn .btn-blue }
+
+[Easy Dynamics Edge Labs Access Package](https://myaccess.microsoft.com/@easydynamics.onmicrosoft.com#/access-packages/8e656ac0-c3d1-425e-9e72-0465891fa8a0){: .btn .btn-blue }
+
+[Easy Dynamics Archive Access Package](https://myaccess.microsoft.com/@easydynamics.onmicrosoft.com#/access-packages/1bea3c9b-eead-475c-ae3c-0d691eba76c2){: .btn .btn-blue }
+
+Once your request is approved:
+
+1. Microsoft Entra adds you to the appropriate GitHub organization access group.
+2. SCIM automatically provisions or matches your GitHub identity in the requested organization.
+3. GitHub sends an invitation to your Easy Dynamics email address when required.
+4. You accept the invitation using your GitHub account.
+5. You authenticate through Easy Dynamics SAML SSO to link your GitHub account to your Easy Dynamics organizational identity.
+
+There is normally no need for IT or a GitHub Organization Owner to manually invite standard organization members.
+
+## Accepting the GitHub Invitation
+
+After your access request is approved, GitHub may send an organization invitation to your **Easy Dynamics email address**.
+
+The email should look similar to the example below:
 
 ![GitHub Invitation](/assets/images/github-invitation.png)
 
-**NOTE:** The invitation will come from the email address **noreply@github.com**, so please make sure
-to either mark the domain as safe or check your spam folder in case it accidentally got moved there.
+**NOTE:** The invitation is sent by GitHub, typically from **noreply@github.com**. Check your spam or junk folder if you do not see it.
 
-Once you click the **Join @EasyDynamics** link in the email, you will be asked to either sign in with 
-a GitHub account or create a new one. Please do so accordingly. If you need additional help with creating
-a GitHub account, please refer to
-[Signing up for a new GitHub account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account).
+Your Easy Dynamics email address must be associated with your GitHub account before you can accept an invitation sent to that address.
 
-All GitHub accounts in the Easy Dynamics organization must have two-factor authentication
-enabled. GitHub provides more information on how to
-[secure your account with two-factor authentication](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
+When you click the **Join** link in the invitation:
 
-Once you have joined the organization (either temporarily or permanently) you should be able to access private repositories, or
-request additional access to them as described below.
+1. Sign in with your existing GitHub account, or create one if necessary.
+2. Accept the organization invitation.
+3. Complete the Easy Dynamics SAML SSO authentication when prompted.
 
-## Requesting access to private repositories as a member
+Once SSO is completed, your GitHub account is linked to your Easy Dynamics organizational identity for access to that GitHub organization.
 
-If you are signed in as a member of the Easy Dynamics organization and still can't access a known repository, you will need to request access using the form linked below. The form will ask for the following information:
+All GitHub accounts accessing Easy Dynamics organizations must meet applicable account security and two-factor authentication requirements.
+
+For more information, see:
+
+[Securing your GitHub account with two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa)
+
+## External Users
+
+External users who are not Easy Dynamics employees must use an **Easy Dynamics-managed account** for access to Easy Dynamics GitHub resources.
+
+If you are an external user and do not have an Easy Dynamics-managed account, contact IT before requesting GitHub access.
+
+External users are granted access as **outside collaborators** rather than GitHub organization members.
+
+## Requesting Access to Private Repositories as a Member
+
+Being a member of a GitHub organization does not automatically grant access to every private repository.
+
+If you are already a member of the appropriate GitHub organization but cannot access a repository you need, submit a repository access request.
+
+The form will ask for:
 
 | GitHub Username  | The username of the GitHub user that needs access to the repository   |
 | Repository Link  | The link/URL to the repository                                        |
@@ -73,7 +107,8 @@ You may only specify one of the following permission levels:
 - Maintain
 - Admin
 
-For more information about each of the permission levels see [Permission levels for repositories owned by an organization](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization).
+For more information, see: 
+[Permission levels for repositories owned by an organization](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#permission-levels-for-repositories-owned-by-an-organization).
 
 Click the button below to submit a request to our IT department.
 
